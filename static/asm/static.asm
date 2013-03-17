@@ -1,3 +1,8 @@
+; static.asm
+;
+; Turn on an led connected to PORTA.0
+;
+
 .equ PORTA, 0x1B           ; alias port A
 .equ DDRA,  0x1A           ; alias the data direction register for port A
 
